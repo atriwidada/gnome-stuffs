@@ -1,0 +1,11 @@
+diff --git a/gdk/Makefile.am b/gdk/Makefile.am
+index 684a01d..121bf91 100644
+--- a/gdk/Makefile.am
++++ b/gdk/Makefile.am
+@@ -1,4 +1,6 @@
+ ## Makefile.am for gtk+/gdk
++AUTOMAKE_OPTIONS = subdir-objects
++
+ include $(top_srcdir)/Makefile.decl
+ -include $(INTROSPECTION_MAKEFILE)
+ INTROSPECTION_GIRS =
